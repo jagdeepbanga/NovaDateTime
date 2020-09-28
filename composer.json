@@ -1,0 +1,41 @@
+{
+    "name": "jagdeepbanga/nova-date-time",
+    "description": "A Laravel Nova DateTime field picker.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "laravel-nova",
+        "field",
+        "datetime",
+        "picker",
+        "datetimepicker",
+        "set default time"
+    ],
+    "authors": [
+        {
+            "name": "Jagdeep Singh Banga",
+            "email": "banga.jagdeep@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jagdeepbanga\\NovaDateTime\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jagdeepbanga\\NovaDateTime\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
