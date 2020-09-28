@@ -23,7 +23,7 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 composer require jagdeepbanga/nova-date-time
 ```
 
-##Usage
+## Usage
 
 ```php
 <?php
